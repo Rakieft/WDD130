@@ -1,9 +1,20 @@
+/* Root variables for consistent styling */
+:root {
+    --primary-color: #02779B;
+    --secondary-color: #3191A7;
+    --text-color: #ffffff;
+    --background-color: aliceblue;
+    --hero-text-color: #ffffff;
+    --box-shadow: 0 0 30px gray;
+    --font-family: 'Roboto', sans-serif;
+}
 
- body {
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: var(--font-family);
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    /* background-color: var(--background-color); */
 }
 
 /* Page Layout */
@@ -13,31 +24,30 @@ main {
     padding: 20px;
 }
 
-header{
+header {
     display: grid;
     grid-template-columns: 300px 1fr 1fr;
     align-items: center;
-    background-color: #02779B ;
+    background-color: var(--primary-color);
     width: 100%;  
-  }
+}
 
-  header img{
+header img {
     width: 50%;
     height: 90%;
     margin-left: 200px;
-  }
+}
 
-
-nav{
+nav {
     display: flex; 
-    }
+}
 
 nav a {
     margin-left: 90px;
-    color: #ffffff;
-    
+    color: var(--text-color);
+    text-decoration: none; /* Ensures links are not underlined */
 }
- 
+
 /* Hero Section */
 .hero {
     position: relative;
@@ -50,7 +60,7 @@ nav a {
     width: 100%;
     height: auto;
     padding: 0;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shadow);
 }
 
 .hero h1 {
@@ -59,7 +69,7 @@ nav a {
     left: 30%;
     font-size: 3rem;
     z-index: 10;
-    color: #ffffff;
+    color: var(--hero-text-color);
 }
 
 .hero article {
@@ -82,43 +92,47 @@ nav a {
     border-radius: 50%;
     width: 100px;
     object-fit: cover;
-} 
+}
 
-.hero article p{
-    color: #ffffff;
+.hero article p {
+    color: var(--text-color);
     text-align: center;
     margin: 0.5em;
 }
 
 section {
+    margin: 10px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: var(--background-color);
+    padding: 20px; /* Added padding for better spacing */
+}
+section img{
+    height: 300px;
+    
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #3191A7;
+    background-color: var(--secondary-color);
     color: black;
     display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 footer p {
-    margin-left: 600px;   
+    margin: 0;
 }
 
 .social-links img {
     width: 40px;
     height: 40px;
-    margin: 0 -20px;
+    margin: 0 1px; /* Adjusted margin for proper spacing */
 }
 
 /* Remove underline from social media links */
 .social-links a {
     text-decoration: none;
 }
-
-
-
-
