@@ -73,7 +73,6 @@
         height: auto;
         padding: 0;
         box-shadow: var(--box-shadow);
-        
     }
 
     .hero h1 {
@@ -115,11 +114,13 @@
         font-family: var(--text-font);
     }
 
+
     /* history */
     .history {
         display: grid;
         text-align: center;
     }
+
     .history img{
         height: 250px;
         width: auto;
@@ -133,16 +134,12 @@
         margin-left: 75px;
     }
 
-
-
-
     section {
         text-align: center;
         background-color: var(--background-color);
         padding: 10px 0; 
         display: grid; 
         margin-top: 0.5rem;
-        /* grid-template-columns: repeat(5, 1fr); */
         gap: 10px;
     }
 
@@ -158,8 +155,6 @@
         margin-top: 50px;
         
     } 
-  
-  
 
     section img{
         height: 300px;
@@ -192,7 +187,6 @@
 
 
     
-
     /* Footer Styles */
     footer {
         text-align: center;
@@ -208,6 +202,7 @@
         margin: 0;
         margin-left: 250px;
     }
+
 
     /*social-links*/    
     .social-links{
