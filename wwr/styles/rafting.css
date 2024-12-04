@@ -108,7 +108,7 @@
     }
 
     .hero article p {
-        color: var(--text-color);
+        color: #ffffff;
         text-align: center;
         margin: 0.5em;
         font-family: var(--text-font);
