@@ -173,24 +173,13 @@
         border-radius: 22px;
     
     }
-/* 
-    figure{
-        display: block;
-        grid-row-start: 1.2;   
-        margin-right: -20px; 
-        margin-left: 100px;
+
+    .wireframe a {
+        color: #000;
+        margin-left: -500px;
     }
 
-    figcaption{
-        margin: 50px;
-        text-align: center;
-        font-family: var( --text-font);
-        /* margin-top: -2px; */
 
-    
-
-
-    
     /* Footer Styles */
     footer {
         text-align: center;
@@ -200,11 +189,12 @@
         display: flex;
         justify-content: center;
         align-items: center; 
+        line-height: 2.6;
     }
 
     footer p {
         margin: 0;
-        margin-left: 250px;
+        margin-left: 450px;
     }
 
 
