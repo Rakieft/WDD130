@@ -222,3 +222,141 @@
         text-decoration: none;
         margin-left: 20px;
     }
+
+
+    /*contact Us*/
+    .contact {
+        display: flex;
+        background-color:var(--background-color);
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .contact h1{
+        position:absolute;
+        margin-top: 15px;
+        font-family: var(--heading-font);
+        text-decoration: underline;
+        padding: 4px;
+        margin-left: 100px;
+    }
+
+    .contact p{
+        float: left;
+        line-height: 0.1px; 
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    
+    .map {
+        margin-top: 76px;
+        height: 400px;
+        width: 600px;
+    }
+
+
+    /*employee*/
+    .employee{
+        text-align: center;
+        background-color: var(--background-color);
+        padding: 10px 0; 
+        display: grid; 
+        margin-top: 0.5rem;
+        gap: 10px;
+    }
+
+    .employee h2{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .employee img{
+        height: 300px;
+        display: block;
+        margin: auto;
+        width: auto;
+        margin-top: 30px; 
+        padding: 0px 5px;
+    }
+
+    figure{
+        display: block;
+        grid-row-start: 1.2;
+        margin-left: 35px;
+    }
+
+    figcaption{
+        margin-top: 5px;
+        text-align: center;
+        font-family: var( --text-font);
+        margin-top: -2px;
+    } 
+
+
+    /*fieldset*/
+    form {
+        width: 800px;
+        height: 400px;
+        margin: 0 auto;
+        padding: 1rem;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        border-radius: 0.5rem;
+        background-color: #98C8D3;
+        display: flex;
+    }
+
+
+    fieldset {
+        display: grid;
+        grid-gap: .5rem;
+        margin: 1rem;
+        border: 1px solid rgb(0 0 0 / 0.2);
+        padding: 1rem;
+        background-color:  #f0f8ff;
+    }  
+
+
+    legend {
+        font-family: var(--font-primary);
+        padding: 0.5rem;
+        color: navy;
+        font-size: 1.3em;
+    } 
+
+    .infom{
+        margin-top: 20px;
+        line-height: 60px;
+    }
+
+    .write{
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+    label, input, button, select, textarea {
+        font-family: var(--text-font);
+    }
+
+    input, select, textarea {
+        padding: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    button {
+        margin: 1rem;
+        background-color: navy;
+        color: #fff;
+        border: none;
+        border-radius: .5rem;
+        padding: .75rem;
+        font-size: 1.2rem;
+    }
+    
+
+    button:hover {
+        background-color: darkgreen;
+    }  
+    
+    
+
+ 
