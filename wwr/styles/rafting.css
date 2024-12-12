@@ -333,6 +333,7 @@
     input, select, textarea {
         padding: 0.5rem;
         font-size: 1.1rem;
+        border-radius: 5px;
     }
 
     button {
@@ -350,6 +351,121 @@
         background-color: darkgreen;
     }  
     
+
+    /*home page*/
+    .images{
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .images img {
+        border-radius: 15px;
+        width: 100%;
+        height: 400px;
+        padding: 0;
+        box-shadow: var(--box-shadow)
+    }
     
+    .images h2{
+        text-decoration: underline;
+        font-family: var(--heading-font);
+    }
+
+
+    .discover{
+        display: flex; 
+    }
+
+    .gotrips{
+        background-color: #f0f8ff;
+        padding: 30px;
+        border: 1.5px solid black;
+        margin-right: 5px;
+        line-height: 50px;
+        box-shadow: var(--box-shadow);
+
+    }
+
+    .discover fieldset{
+        background-color: aliceblue;
+        display: grid;
+        border-radius: 35px;
+        grid-gap: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        float: right;
+        margin-left: 80px;
+    }
+    input{
+        border: 1px solid black;
+    }
+
+    .home{
+        display: grid;
+    }
+
+    .home h3{
+        font-weight: bold;
+        font-family: var(--heading-font);
+        text-decoration: underline;
+    }
+    .project1 {
+        display: flex;
+        background-color: #f0f8ff;
+    }
+
+    .project1 img{
+        height: 225px;
+        width: auto;
+        border-radius: 15px;
+        margin-left: 100px;
+    }
+
+    .project1 p{
+        margin-left: 50px;
+        margin-right: 75px;
+        margin-top: 35px;
+        font-family: var(--text-font);
+    }
+
+    .service h3{
+        font-weight: bold;
+        font-family: var(--heading-font);
+        text-decoration: underline;
+    }
+
+    .project2 {
+        display: flex;
+        background-color: #f0f8ff;
+        margin-top: 5px;
+    }
+
+    .project2 img{
+        height: 225px ;
+        width: auto;
+        border-radius: 15px;
+        margin-right: 75px;
+    }
+
+    .project2 p{
+        margin-left: 75px;
+        margin-right: 50px;
+        margin-top: 45px;
+        font-family: var(--text-font);
+    }
+
+    .project3 {
+        display: flex;
+        background-color: #f0f8ff;
+    }
+
+    .project3 img{
+        height: 225px ;
+        width: auto;
+        border-radius: 15px;  
+    }
+
+
 
  
