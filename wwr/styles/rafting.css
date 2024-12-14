@@ -147,6 +147,7 @@
         font-family: var(--heading-font);
         grid-column: span 5;
         margin-bottom: 10px;
+        text-decoration: underline;
     }
 
     section p{
@@ -370,16 +371,18 @@
     .images h2{
         text-decoration: underline;
         font-family: var(--heading-font);
+        margin-top: 60px;
     }
 
 
     .discover{
         display: flex; 
+        margin-left: 150px;
     }
 
     .gotrips{
         background-color: #f0f8ff;
-        padding: 30px;
+        padding: 50px;
         border: 1.5px solid black;
         margin-right: 5px;
         line-height: 50px;
@@ -396,9 +399,12 @@
         padding: 10px;
         float: right;
         margin-left: 80px;
+
     }
-    input{
+    .contactIndex input{
         border: 1px solid black;
+        line-height: 1.6;
+        margin: 10px;
     }
 
     .home{
@@ -411,7 +417,7 @@
         text-decoration: underline;
     }
     .project1 {
-        display: flex;
+        display: grid;
         background-color: #f0f8ff;
     }
 
@@ -436,7 +442,7 @@
     }
 
     .project2 {
-        display: flex;
+        display: grid;
         background-color: #f0f8ff;
         margin-top: 5px;
     }
@@ -446,6 +452,7 @@
         width: auto;
         border-radius: 15px;
         margin-right: 75px;
+        margin-left: 100px;
     }
 
     .project2 p{
@@ -455,16 +462,177 @@
         font-family: var(--text-font);
     }
 
-    .project3 {
-        display: flex;
-        background-color: #f0f8ff;
+
+    /*Trips*/
+    .trips{
+        position: relative;
+        text-align: center;
+        /* padding: 10px; */
     }
 
-    .project3 img{
-        height: 225px ;
-        width: auto;
-        border-radius: 15px;  
+    .trips img{
+        border-radius: 15px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        box-shadow: var(--box-shadow);
     }
+
+    .trips h1{
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        font-family: var(--heading-font);
+        font-size: 3rem;
+        z-index: 10;
+        color:var(--hero-text-color);
+    }
+
+    .trips fieldset{
+        position: absolute;
+        bottom: 10%;
+        left: 40px;
+        background-color: #98C8D3;
+        padding: 20px;
+        border-radius: 20px;
+        color: black;
+        z-index: 10;
+        max-width: 90%;
+        text-align: center;
+        opacity: 0.9;
+    }
+
+    .trips fieldset legend{
+        color: #000000;
+    }
+
+    .trips1{
+        position: relative;
+        width: 20em;
+        height: 24em;
+        margin: 1em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #eee;
+        color: #333;
+        border-radius: 15px;
+        margin-left: 50px;
+    }
+    .trips1 img{
+        height: 200px;
+        width: 280px;
+        border-radius: 15px;
+    }
+
+    .trips1 p{
+        line-height: 1.6px;
+        position: absolute;
+        margin-left: 5px;
+    }
+
+    /*trips2*/
+    .trips2{
+        position: relative;
+        width: 20em;
+        height: 24em;
+        margin: 1em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #eee;
+        color: #333;
+        border-radius: 15px;
+    }
+    .trips2 img{
+        height: 200px;
+        width: 280px;
+        border-radius: 15px;
+        /* box-shadow: var(--box-shadow); */
+        
+    }
+
+    .trips2 p{
+        line-height: 1.6px;
+        position: absolute;
+        margin-left: 5px;
+    }
+
+
+    /*trips3*/
+    .trips3{
+        position: relative;
+        width: 20em;
+        height: 24em;
+        margin: 1em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #eee;
+        color: #333;
+        /* text-align: center; */
+        border-radius: 15px;
+    }
+
+    .trips3 img{
+        height: 200px;
+        width: 280px;
+        border-radius: 15px ;
+        
+    }
+
+    .trips3 p{
+        line-height: 1.6px;
+        position: absolute;
+        margin-left: 5px;
+    }
+
+    /*table*/
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    thead tr {
+        background-color: #f4f4f4;
+        color: #333;
+        font-weight: bold;
+    }
+    
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+    
+    th {
+        background-color: #03A0C3;
+        color: #000;
+        text-transform: uppercase;
+    }
+    
+    td {
+        color: #555;
+    }
+    
+    table caption {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+
+
+    
+
+
+
+    
+    
 
 
 
